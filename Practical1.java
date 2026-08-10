@@ -5,12 +5,10 @@ class Point {
         this.x = x;
         this.y = y;
     }
-
-    public double getX() {
+ public double getX() {
         return x;
     }
-
-    public double getY() {
+public double getY() {
         return y;
     }
 }
@@ -19,8 +17,7 @@ class Quadrilateral {
     Point point2;
     Point point3;
     Point point4;
-
-    public Quadrilateral(Point p1, Point p2, Point p3, Point p4) {
+public Quadrilateral(Point p1, Point p2, Point p3, Point p4) {
         this.point1 = p1;
         this.point2 = p2;
         this.point3 = p3;
@@ -28,8 +25,7 @@ class Quadrilateral {
     }
 }
 class Trapezoid extends Quadrilateral {
-
-    public Trapezoid(Point p1, Point p2, Point p3, Point p4) {
+ public Trapezoid(Point p1, Point p2, Point p3, Point p4) {
         super(p1, p2, p3, p4);
     }
     public double calculateArea() {
